@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  jupyterlab:
+    image: nvcr.io/nvidia/tensorflow:20.12-tf2-py3
+    ports:
+      - '8888:8888'
+    volumes:
+      - './ds_python:/workspace'
+    command: jupyter lab
+    tty: true
+    stdin_open: true
