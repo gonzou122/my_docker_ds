@@ -2,6 +2,7 @@ version: '3.7'
 services:
   jupyterlab:
     image: nvcr.io/nvidia/tensorflow:20.12-tf2-py3
+    container_name: jupyterlab
     ports:
       - '8888:8888'
     volumes:
