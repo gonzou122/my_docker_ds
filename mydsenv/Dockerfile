@@ -5,6 +5,6 @@ RUN apt update && apt upgrade -y \
 	lightgbm \
 	matplotlib \ 
 	pandas \
-	seaborn \
-	scikit-learn
+	scikit-learn \
+	seaborn
 CMD ["/bin/bash"]
