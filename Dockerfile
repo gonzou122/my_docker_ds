@@ -8,5 +8,6 @@ RUN apt update && apt upgrade -y \
 	scikit-learn \
 	seaborn \ 
 	optuna \
-	opencv-contrib-python
+	opencv-contrib-python \
+	jedi==0.17.2
 CMD ["/bin/bash"]
