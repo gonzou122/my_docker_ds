@@ -9,5 +9,9 @@ RUN apt update && apt upgrade -y \
 	seaborn \ 
 	optuna \
 	opencv-contrib-python \
+	pandas_profiling \
+	autoviz \
+	xlrd \
+	featuretools \
 	jedi==0.17.2
 CMD ["/bin/bash"]
